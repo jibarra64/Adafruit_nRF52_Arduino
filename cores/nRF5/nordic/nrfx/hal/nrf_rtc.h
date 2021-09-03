@@ -48,6 +48,9 @@ extern "C" {
 /** @brief Macro for getting the number of compare channels available in a given RTC instance. */
 #define NRF_RTC_CC_CHANNEL_COUNT(id)  NRFX_CONCAT_3(RTC, id, _CC_NUM)
 
+/** @brief Maximum value of the RTC counter. */
+#define NRF_RTC_COUNTER_MAX RTC_COUNTER_COUNTER_Msk
+
 /** @brief Input frequency of the RTC instance. */
 #define RTC_INPUT_FREQ 32768
 
