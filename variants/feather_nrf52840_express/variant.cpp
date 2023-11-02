@@ -89,7 +89,7 @@ const uint32_t g_ADigitalPinMap[] =
   // 37,      // P1.05 is not connected per schematic
   // 38,      // P1.06 is not connected per schematic
   // 39,      // P1.07 is not connected per schematic
-  // 43,      // P1.11 is not connected per schematic
+  43,         // D33 is P1.11
   // 44,      // P1.12 is not connected per schematic
   // 45,      // P1.13 is not connected per schematic
   // 46,      // P1.14 is not connected per schematic

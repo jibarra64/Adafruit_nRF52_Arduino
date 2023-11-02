@@ -37,8 +37,8 @@ extern "C"
 #endif // __cplusplus
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT           (34)
-#define NUM_DIGITAL_PINS     (34)
+#define PINS_COUNT           (35)
+#define NUM_DIGITAL_PINS     (35)
 #define NUM_ANALOG_INPUTS    (6) // A6 is used for battery, A7 is analog reference
 #define NUM_ANALOG_OUTPUTS   (0)
 
@@ -130,6 +130,10 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 // On-board QSPI Flash
 #define EXTERNAL_FLASH_DEVICES   GD25Q16C
 #define EXTERNAL_FLASH_USE_QSPI
+
+// Other features specific to our variant
+#define BOOST_EN             5
+#define SERVO_PWM            6
 
 #ifdef __cplusplus
 }
