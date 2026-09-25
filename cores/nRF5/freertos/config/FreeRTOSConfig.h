@@ -52,7 +52,7 @@
 #define configUSE_TICKLESS_IDLE                                  1
 #define configUSE_TICKLESS_IDLE_SIMPLE_DEBUG                     1 /* See into vPortSuppressTicksAndSleep source code for explanation */
 #define configCPU_CLOCK_HZ                                       ( SystemCoreClock )
-#define configTICK_RATE_HZ                                       1024
+#define configTICK_RATE_HZ                                       10//1024
 #define configMAX_PRIORITIES                                     ( 5 )
 #define configMINIMAL_STACK_SIZE                                 ( 100 )
 #define configTOTAL_HEAP_SIZE                                    ( 4096 ) /* not used since we use malloc */
